@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "author": "carmendiazit",
+  "license": "MIT",
+  "description": "Sistemas de Pedidos para AWS"
 }
