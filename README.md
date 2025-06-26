@@ -12,6 +12,7 @@ Sistema de pedidos en NodeJS para correr en AWS Lambda.
 ## 📄 Índice
 
 - [Descripción](#descripción)
+- [**Arquitectura**](#arquitectura) 
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Instalación](#instalación)
 - [Uso](#uso)
@@ -24,6 +25,13 @@ Sistema de pedidos en NodeJS para correr en AWS Lambda.
 ## 📝 Descripción
 
 Este proyecto implementa un sistema de pedidos desarrollado en Node.js, diseñado para desplegarse en AWS Lambda mediante Serverless Framework. Utiliza servicios clave de AWS como **API Gateway**, **SQS** (Simple Queue Service) y **DynamoDB** para gestionar las órdenes de manera escalable y sin servidor.
+
+## 🏗️ Arquitectura
+
+Aquí puedes insertar tu diagrama de infraestructura. Puedes subirlo a tu repositorio y enlazarlo:
+
+```markdown
+![Diagrama de Arquitectura Serverless](assets/architecture-diagram.png)
 
 ## 🚀 Tecnologías Utilizadas
 
