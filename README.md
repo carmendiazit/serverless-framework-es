@@ -102,16 +102,17 @@ Luego de desplegar el proyecto se visualizan los endpoints y las funciones dispo
 ![endpoints-functions](assets/endpoints-functions.png)
 
 
-- Sino no visualizas la info de arriba podes usar el comando
+- Sino no visualizas la info de arriba podes usar el 
+```bash
 serverless info
-
+```
 - Estos endpoints estan disponibles para probar desde postman u otros thunder client, chrome etc.
-(en el ejemplo se visualiza el request POST al endpoint q invoc la funcion newOrder )
+(en el ejemplo se visualiza el request POST al endpoint q invoca a la funcion newOrder en el archivo handler )
 
 ![postman-sample](assets/postman-sample.png)
 
 
-## Desde CloudFormation - Nuestra pila - Recursos - Lambda  existe una seccion logsGroups, o Eventos de registro, donde se pueden visualizar.
+#### Desde CloudFormation - Nuestra pila - Recursos - Lambda  existe logsGroups o Eventos de registro, donde se pueden visualizar, las llamadas a nuestras funciones expuestas en el handler.
 
 ![logs](assets/monitoreo.png)
 
@@ -119,7 +120,7 @@ serverless info
 ![logs](assets/eventos-registro.png)
 
 
-#### Desde la terminal loguamos la funcion  order, nos muestra los request ya ejecutados
+#### Desde la terminal loguamos la funcion  newOrder, nos muestra los request ya ejecutados
 ```bash
 serverless --function newOrder logs 
 
@@ -127,14 +128,14 @@ serverless --function newOrder logs
 ![logs](assets/logs.png)
 
 
-#### Desde la terminal loguamos la funcion  order, nos muestra los requests que se estan ejecutando, se queda listening logs.
+#### Desde la terminal logueamos la funcion  newOrder, nos muestra los requests que se estan ejecutando, se queda listening logs.
 ```bash
 serverless --function newOrder logs -t
 ```
 ![logs](assets/logs_t.png)
 
-###Eliminación del stack
-##Para eliminar completamente el stack y todos los recursos asociados de AWS:
+### Eliminación del stack
+## Para eliminar completamente el stack y todos los recursos asociados de AWS:
 ```bash
 serverless remove
 ```
@@ -157,10 +158,10 @@ Realiza tus cambios y commitea (git commit -m 'Add some AmazingFeature').
 Sube tus cambios (git push origin feature/AmazingFeature).
 Abre un "Pull Request".
 
-Agradecimientos y contribuciones
+🤝 🤝 Agradecimientos y contribuciones
 
-@MarciaVillalba 
-@LauraBolaños
+@MarciaVillalba Marcia Villalba 
+@LauraBolaños Laura Bolaños
 
 📄 Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
