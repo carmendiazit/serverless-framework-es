@@ -158,10 +158,11 @@ Realiza tus cambios y commitea (git commit -m 'Add some AmazingFeature').
 Sube tus cambios (git push origin feature/AmazingFeature).
 Abre un "Pull Request".
 
-🤝 🤝 Agradecimientos y contribuciones
+🤝 Agradecimientos y contribuciones 
 
 @MarciaVillalba Marcia Villalba 
-@LauraBolaños Laura Bolaños
+
+🤝@LauraBolaños Laura Bolaños
 
 📄 Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
