@@ -1,4 +1,5 @@
 # serverless-framework-es
+![Diagrama de Arquitectura Serverless](assets/architecture-diagram.png)
 
 
 Sistema de pedidos en NodeJS para correr en AWS Lambda.
@@ -24,7 +25,6 @@ Este proyecto implementa un sistema de pedidos desarrollado en Node.js, diseñad
 
 
 ```markdown
-![Diagrama de Arquitectura Serverless](assets/architecture-diagram.png)
 
 
 
