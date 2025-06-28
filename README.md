@@ -96,7 +96,7 @@ Para desplegar el sistema en AWS utilizando Serverless Framework, ejecuta el sig
 
 ```bash
 serverless deploy
-
+```
 Luego de desplegar el proyecto se visualizan los endpoints y las funciones disponibles para cada uno.
 
 ![endpoints-functions](assets/endpoints-functions.png)
@@ -120,21 +120,24 @@ serverless info
 
 
 #### Desde la terminal loguamos la funcion  order, nos muestra los request ya ejecutados
+```bash
 serverless --function newOrder logs 
 
+```
 ![logs](assets/logs.png)
 
 
 #### Desde la terminal loguamos la funcion  order, nos muestra los requests que se estan ejecutando, se queda listening logs.
+```bash
 serverless --function newOrder logs -t
-
+```
 ![logs](assets/logs_t.png)
 
 ###Eliminación del stack
 ##Para eliminar completamente el stack y todos los recursos asociados de AWS:
 ```bash
 serverless remove
-
+```
 ☁️ Configuración AWS
 Este proyecto hace uso de los siguientes servicios de Amazon Web Services:
 
