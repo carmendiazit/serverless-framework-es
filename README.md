@@ -25,7 +25,7 @@ Este proyecto implementa un sistema de pedidos desarrollado en Node.js, diseñad
 
 ```markdown
 ![Diagrama de Arquitectura Serverless](assets/architecture-diagram.png)
-![Serverless Framework Logo](https://img.shields.io/badge/Serverless%20Framework-000000?style=for-the-badge&logo=serverless&logoColor=white)
+![Texto alternativo](https://ejemplo.com/imagen.png)
 
 
 ## 🚀 Tecnologías Utilizadas
