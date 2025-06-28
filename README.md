@@ -16,7 +16,7 @@ Sistema de pedidos en NodeJS para correr en AWS Lambda.
 
 ---
 
-## 📝 Descripción
+## 📝 Descripción #descripcion
 
 Este proyecto implementa un sistema de pedidos desarrollado en Node.js, diseñado para desplegarse en AWS Lambda mediante Serverless Framework. Utiliza servicios clave de AWS como **API Gateway**, **SQS** (Simple Queue Service) y **DynamoDB** para gestionar las órdenes de manera escalable y sin servidor.
 
@@ -97,6 +97,38 @@ Para desplegar el sistema en AWS utilizando Serverless Framework, ejecuta el sig
 ```bash
 serverless deploy
 
+Luego de desplegar el proyecto se visualizan los endpoints y las funciones disponibles para cada uno.
+
+![endpoints-functions](assets/endpoints-functions.png)
+
+
+- Sino no visualizas la info de arriba podes usar el comando
+serverless info
+
+- Estos endpoints estan disponibles para probar desde postman u otros thunder client, chrome etc.
+(en el ejemplo se visualiza el request POST al endpoint q invoc la funcion newOrder )
+
+![postman-sample](assets/postman-sample.png)
+
+
+## Desde CloudFormation - Nuestra pila - Recursos - Lambda  existe una seccion logsGroups, o Eventos de registro, donde se pueden visualizar.
+
+![logs](assets/monitoreo.png)
+
+
+![logs](assets/eventos-registro.png)
+
+
+#### Desde la terminal loguamos la funcion  order, nos muestra los request ya ejecutados
+serverless --function newOrder logs 
+
+![logs](assets/logs.png)
+
+
+#### Desde la terminal loguamos la funcion  order, nos muestra los requests que se estan ejecutando, se queda listening logs.
+serverless --function newOrder logs -t
+
+![logs](assets/logs_t.png)
 
 ###Eliminación del stack
 ##Para eliminar completamente el stack y todos los recursos asociados de AWS:
@@ -122,7 +154,12 @@ Realiza tus cambios y commitea (git commit -m 'Add some AmazingFeature').
 Sube tus cambios (git push origin feature/AmazingFeature).
 Abre un "Pull Request".
 
+Agradecimientos y contribuciones
+
+@MarciaVillalba 
+@LauraBolaños
 
 📄 Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
 
