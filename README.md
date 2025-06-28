@@ -27,6 +27,7 @@ Aquí puedes insertar tu diagrama de infraestructura. Puedes subirlo a tu reposi
 ```markdown
 ![Diagrama de Arquitectura Serverless](assets/architecture-diagram.png)
 
+
 ## 🚀 Tecnologías Utilizadas
 
 * **Node.js**: Entorno de ejecución de JavaScript.
