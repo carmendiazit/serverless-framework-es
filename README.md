@@ -25,7 +25,7 @@ Este proyecto implementa un sistema de pedidos desarrollado en Node.js, diseñad
 
 ```markdown
 ![Diagrama de Arquitectura Serverless](assets/architecture-diagram.png)
-![Texto alternativo](https://ejemplo.com/imagen.png)
+
 
 
 ## 🚀 Tecnologías Utilizadas
