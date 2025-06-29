@@ -142,29 +142,29 @@ serverless remove
 ## ☁️ Configuración AWS
 ### Este proyecto hace uso de los siguientes servicios de Amazon Web Services:
 
-AWS Lambda: Para la ejecución de las funciones sin servidor.
-Amazon API Gateway: Como punto de entrada para las APIs REST.
-Amazon SQS: Para la gestión de colas de mensajes, asegurando un procesamiento asíncrono y resiliente.
-Amazon DynamoDB: Como base de datos NoSQL para almacenar la información de los pedidos.
-DynamoDB Streams: Para reaccionar a los cambios en la base de datos de DynamoDB.
-AWS IAM: Para la gestión de permisos y roles de los recursos.
+* `AWS Lambda: Para la ejecución de las funciones sin servidor.`
+* `Amazon API Gateway: Como punto de entrada para las APIs REST.`
+* `Amazon SQS: Para la gestión de colas de mensajes, asegurando un procesamiento asíncrono y resiliente.`
+* `Amazon DynamoDB: Como base de datos NoSQL para almacenar la información de los pedidos.`
+* `DynamoDB Streams: Para reaccionar a los cambios en la base de datos de DynamoDB.`
+* `AWS IAM: Para la gestión de permisos y roles de los recursos.`
 
-🤝 Contribuciones
-¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor:
+## 🤝 Contribuciones
+### ¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor:
 
-Haz un "fork" del repositorio.
-Crea una nueva rama (git checkout -b feature/AmazingFeature).
-Realiza tus cambios y commitea (git commit -m 'Add some AmazingFeature').
-Sube tus cambios (git push origin feature/AmazingFeature).
-Abre un "Pull Request".
+`Haz un "fork" del repositorio.`
+`Crea una nueva rama (git checkout -b feature/AmazingFeature).`
+`Realiza tus cambios y commitea (git commit -m 'Add some AmazingFeature').`
+``Sube tus cambios (git push origin feature/AmazingFeature).`
+`Abre un "Pull Request".`
 
-🤝 Agradecimientos y contribuciones 
+## 🤝 Agradecimientos y contribuciones 
 
-@MarciaVillalba Marcia Villalba 
+`@MarciaVillalba Marcia Villalba`
 
-🤝@LauraBolaños Laura Bolaños
+`@LauraBolaños Laura Bolaños`
 
-📄 Licencia
+## 📄 Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 
