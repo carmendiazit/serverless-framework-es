@@ -135,7 +135,7 @@ serverless --function newOrder logs -t
 ![logs](assets/logs_t.png)
 
 ### Eliminación del stack
-## Para eliminar completamente el stack y todos los recursos asociados de AWS:
+#### Para eliminar completamente el stack y todos los recursos asociados de AWS:
 ```bash
 serverless remove
 ```
