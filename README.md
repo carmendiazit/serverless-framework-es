@@ -140,7 +140,7 @@ serverless --function newOrder logs -t
 serverless remove
 ```
 ## ☁️ Configuración AWS
-###Este proyecto hace uso de los siguientes servicios de Amazon Web Services:
+### Este proyecto hace uso de los siguientes servicios de Amazon Web Services:
 
 AWS Lambda: Para la ejecución de las funciones sin servidor.
 Amazon API Gateway: Como punto de entrada para las APIs REST.
