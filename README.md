@@ -152,11 +152,11 @@ serverless remove
 ## 🤝 Contribuciones
 ### ¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor:
 
-`Haz un "fork" del repositorio.`
-`Crea una nueva rama (git checkout -b feature/AmazingFeature).`
-`Realiza tus cambios y commitea (git commit -m 'Add some AmazingFeature').`
-``Sube tus cambios (git push origin feature/AmazingFeature).`
-`Abre un "Pull Request".`
+Haz un "fork" del repositorio.
+Crea una nueva rama (git checkout -b feature/AmazingFeature).
+Realiza tus cambios y commitea (git commit -m 'Add some AmazingFeature').
+Sube tus cambios (git push origin feature/AmazingFeature).
+Abre un "Pull Request".`
 
 ## 🤝 Agradecimientos y contribuciones 
 
