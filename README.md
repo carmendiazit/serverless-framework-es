@@ -125,7 +125,7 @@ serverless info
 serverless --function newOrder logs 
 
 ```
-![logs](assets/logs.png)
+
 
 
 #### Desde la terminal logueamos la funcion  newOrder, nos muestra los requests que se estan ejecutando, se queda listening logs.
