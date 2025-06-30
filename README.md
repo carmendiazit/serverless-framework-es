@@ -45,7 +45,7 @@ Sigue estos pasos para configurar y preparar el proyecto localmente:
 1.  **Clona el repositorio:**
 
     ```bash
-    git https://github.com/carmendiazit/serverless-framework-es.git
+    git clone https://github.com/carmendiazit/serverless-framework-es.git
     cd serverless-framework-es
     ```
 
