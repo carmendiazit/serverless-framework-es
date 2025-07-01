@@ -90,8 +90,6 @@ Sigue estos pasos para configurar y preparar el proyecto localmente:
     3
     - Modificar el serverles.yml para que tome la organización creada en el punto 1
      ![org_orgserverless](assets/org.png) 
-    
-
 
 5.  **Verifica la instalación de Serverless:**
 
