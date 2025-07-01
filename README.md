@@ -75,6 +75,23 @@ Sigue estos pasos para configurar y preparar el proyecto localmente:
     ```
 
     * Puedes configurar las credenciales usando [AWS CLI](https://aws.amazon.com/cli/).*
+    
+    **Configura tu ccessKey de serverless para tu entorno**
+    * `Access Key permiten que tu CLI se autentique con el panel de Serverless Framework, lo que resulta ideal para entornos headless como herramientas de CI/CD. Establece una Access Key como una variable de entorno denominada SERVERLESS_ACCESS_KEY, lo que elimina la necesidad de iniciar sesión sin servidor. `
+    1
+    - Registrarte en la web del framework : https://app.serverless.com/
+    - Te va a pedir un nombre de organización, en mi caso le puse "Carmechas" (ver linea uno serverless.yaml)
+    - Agregar la access key en la misma web ( te genera una llave - copiarla)
+   
+    ![access_key_serverless](assets/accesskeyServerless.png) 
+    2
+    - Agregar en la máquina desde donde se deploya la variable de entorno con el valor copiado anteriormente.
+    SERVERLESS_ACCESS_KEY=XXX
+    3
+    - Modificar el serverles.yml para que tome la organización creada en el punto 1
+     ![org_orgserverless](assets/org.png) 
+    
+
 
 5.  **Verifica la instalación de Serverless:**
 
