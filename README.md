@@ -76,7 +76,7 @@ Sigue estos pasos para configurar y preparar el proyecto localmente:
 
     * Puedes configurar las credenciales usando [AWS CLI](https://aws.amazon.com/cli/).*
     
-    **Configura tu ccessKey de serverless para tu entorno**
+    **Configura tu accessKey de serverless para tu entorno**
     * `Access Key permiten que tu CLI se autentique con el panel de Serverless Framework, lo que resulta ideal para entornos headless como herramientas de CI/CD. Establece una Access Key como una variable de entorno denominada SERVERLESS_ACCESS_KEY, lo que elimina la necesidad de iniciar sesión sin servidor. `
     
     
