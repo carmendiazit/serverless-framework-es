@@ -55,7 +55,7 @@ functions:
     environment:
       ORDERS_TABLE:
         Ref: OrdersTable    
-    events:
+    events: 
       - sqs:
           arn: 
             Fn::GetAtt: [PendingOrderQueue, Arn]

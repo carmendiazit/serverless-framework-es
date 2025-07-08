@@ -50,12 +50,8 @@ Sigue estos pasos para configurar y preparar el proyecto localmente:
     ```
 
 2.  **Verifica la versión de Node.js:**
-    Asegúrate de tener Node.js instalado (se recomienda la versión 14 o superior):
+    Instala npm (se recomienda la versión 14 o superior):
 
-    ```bash
-    node -v
-    ```
-    Sino esta instalado 
     ```bash 
       npm install 
 
@@ -122,7 +118,7 @@ Luego de desplegar el proyecto se visualizan los endpoints y las funciones dispo
 ```bash
 serverless info
 ```
-- Estos endpoints estan disponibles para probar desde postman u otros thunder client, chrome etc.
+- Estos endpoints estan disponibles para probar desde Postman, Thunder Client, curl.
 (en el ejemplo se visualiza el request POST al endpoint q invoca a la funcion newOrder en el archivo handler )
 
 ![postman-sample](assets/postman-sample.png)
